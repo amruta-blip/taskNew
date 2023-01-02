@@ -514,12 +514,128 @@
 
 // const readline = require("readline-sync");
 
-const readline = require('readline-sync');
+// const readline = require('readline-sync');
   
-// Enter the number
-let a = Number(readline.question());
-let number = [];
-for (let i = 0; i < a; ++i) {
-  number.push(Number(readline.question()));
-}
-console.log(number);
+// // Enter the number
+// let a = Number(readline.question());
+// let number = [];
+// for (let i = 0; i < a; ++i) {
+//   number.push(Number(readline.question()));
+// }
+// console.log(number);
+
+// let language = "JavaScript";
+
+// let text = "";
+// for (let x of language) {
+// text += x;
+// }
+
+// let name1 = 'Amruta'
+// // let i 
+// let text = "";
+// for (let i in name1){
+//   text += name1;
+//   return console.log(text);
+// }
+// data += name2.surname;
+// return console.log(data);
+
+// data = name2.name;
+
+// let name2 =[
+//   {name: 'amruta', surname: 'padyal',age: 48},
+//   {name: 'rucha', surname: 'bapat', age: 24},
+//   {name:'prem', surname:'gupta', age: 29},  
+// ]
+
+// for(let i in name2){
+//   let data =""
+//   data = name2[i].name
+//   console.log(data);
+// }
+
+//palindrom
+
+// let a = 'bob'
+// let b=''
+// for(let i=a.length-1; i>=0; i--){
+    
+//   b= b+a[i]
+// }
+// if(a==b) {
+//     // return true; 
+//     console.log('true');
+// }
+// else{
+//     // return false;
+// console.log('false');
+// }
+
+// console.log('Before');
+// getUser(1, (user) => {
+//   getRepositories(user.gitHubUsername, (repos) => {
+//     getCommits(repos[0], (commits) => {
+//       console.log(commits);
+//     })
+//   })
+// });
+
+// getUser(1)
+//     .then(user => console.log(user))
+//     .then(repos => getCommits[0])
+//     .then(commits => console.log('commits', commits))
+//     .catch(err => console.log('Error', err.message));
+
+// async function displayCommits(){
+//     try{
+//     const user = await getUser(1);
+//     const repos =await getRepositories(user.gitHubUsername);
+//     const commits = await getCommits(repos[0])
+//     console.log(commits);
+//     }
+
+//     catch(err){
+//         console.log(err)
+//         // console.log('Error', err.message);
+//     }
+// }
+
+// displayCommits();
+
+// console.log('After');
+
+// function getUser(id) {
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() => {
+//             console.log('Reading a user from a database...');
+//             resolve({ id: id, gitHubUsername: 'mosh' });
+//           }, 2000);
+//     });
+  
+// }
+
+// function getRepositories(){
+//     return new Promise((resolve, reject) =>
+//     {
+//         setTimeout(() => {
+//             console.log('Calling GitHub API...');
+//             resolve(['repo1', 'repo2', 'repo3']);
+//           }, 2000);
+//     })
+  
+// }
+
+// function getCommits() {
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() => {
+//             console.log('Calling GitHub API...');
+//             resolve(['commit']);
+//           }, 2000);
+//     })
+// } 
+
+
+
+
+
